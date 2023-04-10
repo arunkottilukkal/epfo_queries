@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "EPFO Queries",
+  "name_for_human": "Teleperformance EPFO Queries",
+  "description_for_model": "The plugin supports you to answer any quries related to EPFO Queries.",
+  "description_for_human": "EPFO Query Search Engine.",
+  "auth": {
+    "type": "user_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://urchin-app-iksnv.ondigitalocean.app/.well-known/openapi.yaml",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://urchin-app-iksnv.ondigitalocean.app/.well-known/logo.png",
+  "contact_email": "www.localhost8086.com@gmail.com", 
+  "legal_info_url": "http://example.com/legal-info"
+}
